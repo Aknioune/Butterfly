@@ -1,0 +1,40 @@
+/* src/components/AddArticle.css */
+.add-article-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .add-article-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-article-form input,
+  .add-article-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-article-form textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .add-article-form button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-article-form button:hover {
+    background-color: #0056b3;
+  }
+  
