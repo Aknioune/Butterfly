@@ -1,6 +1,5 @@
-// src/components/AddArticle.js
 import React, { useState } from 'react';
-import './AddArticle.css'; // Optional: For custom styling
+import './AddArticle.css';
 
 function AddArticle() {
   const [article, setArticle] = useState({
@@ -22,8 +21,9 @@ function AddArticle() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
+    // Simulate adding the article to the articles array
     console.log('New Article:', article);
+    // Normally, here you would send the article to a backend to save it to the JSON file
     setArticle({
       title: '',
       category: '',

@@ -6,8 +6,8 @@ import VoluntaryActivities from './components/VoluntaryActivities';
 import Partners from './components/Partners';
 import ProjectDescription from './components/ProjectDescription';
 import BlogPostDetail from './components/BlogPostDetail';
+import AddArticle from './components/AddArticle';
 import Footer from './components/Footer';
-import AddArticle from './components/AddArticle';  // Import the AddArticle component
 import './App.css';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
             <Route path="/partners" element={<Partners />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/post/:id" element={<BlogPostDetail />} />
-            <Route path="/add-article" element={<AddArticle />} />  {/* Add the AddArticle route */}
+            <Route path="/add-article" element={<AddArticle />} />
           </Routes>
         </main>
         <Footer />
